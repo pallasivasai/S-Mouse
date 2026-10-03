@@ -13,10 +13,10 @@ FRAME_REDUCTION = 60
 DEADZONE = 1.5
 BASE_SMOOTHING = 0.22
 
-PINCH_THRESHOLD = 0.38
-PINCH_RELEASE = 0.50
-CLICK_COOLDOWN = 0.30
-DOUBLE_CLICK_TIME = 0.40
+PINCH_THRESHOLD = 0.52
+PINCH_RELEASE = 0.68
+CLICK_COOLDOWN = 0.28
+DOUBLE_CLICK_TIME = 0.45
 DRAG_HOLD_TIME = 0.55
 
 SCROLL_DEADZONE = 10
@@ -52,7 +52,9 @@ previous_mouse_x = screen_width / 2
 previous_mouse_y = screen_height / 2
 
 left_pinch_active = False
+pinch_frames = 0
 right_pinch_active = False
+right_frames = 0
 dragging = False
 pinch_start_time = None
 last_click_time = 0.0
